@@ -54,8 +54,24 @@ and then prints the doubled value out to the console.
 
 #include <iostream>
 
+int doubleNumber(int x)
+{
+    return x * 2;
+}
+
 int main()
 {
+    // prompt the user to give me an integer and create the empty integer
+    std::cout << "Input an integer: ";
+    int num {};
+    std::cin >> num;
+
+    std::cout << "The value your doubled number has is.." << doubleNumber(num) << "\n";
+
+
+
+
+
 
     return 0;
 }
